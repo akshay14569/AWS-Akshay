@@ -1,0 +1,63 @@
+VPC - Virtual Private Cloud
+
+Three Tier Application
+
+1- Web Server - HTTPS/HTTPS
+
+2- App Server - Application installed on app servers
+
+3. Datat Base Server - Database.
+
+NAT GATE Way - It only provide Access to the private subnets.
+
+NAT Gatway always use Elastic IP Mandatery.
+
+VPC Peering - It is used to create bridges between multiple Regions like (Mumbai,US)
+
+Network ACL - Provides security at subnet level.
+
+Security groups - Provides security at Instance level.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+A VPC is a virtual cloud that you create in the cloud. It allows you to have your own private section of the internet, just like having your own network within a larger network.
+Within this VPC, you can create and manage various resources, such as servers, databases, and storage.
+This virtual network is completely isolated from other users' networks, so your data and applications are secure and protected.
+
+Components of VPC:
+1. Subnets
+2. IP addressing
+3. Network Access Control List (NACL)
+4. Security Group
+5. Routing
+6. Gateways and endpoints
+7. Peering connections
+8. Transit gateways
+9. VPC Flow Logs
+10. VPN connections
+
+
+1. Subnets: A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
+
+2. IP addressing: You can assign IP addresses, both IPv4 and IPv6, to your VPCs and subnets.
+You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
+
+3. Network Access Control List (NACL): A Network Access Control List is a stateless firewall that controls inbound and outbound traffic at the subnet level.
+It operates at the IP address level and can allow or deny traffic based on rules that you define. NACLs provide an additional layer of network security for your VPC.
+
+4. Security Group: A security group acts as a virtual firewall for instances (EC2 instances or other resources) within a VPC.
+It controls inbound and outbound traffic at the instance level. Security groups allow you to define rules that permit or restrict traffic based on protocols, ports, and IP addresses.
+
+5. Routing: Use route tables to determine where network traffic from your subnet or gateway is directed.
+
+6. Gateways and endpoints: A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet.
+Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
+
+7. Peering connections: Use a VPC peering connection to route traffic between the resources in two VPCs.
+
+8. Transit gateways: Use a transit gateway, which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS Direct Connect connections.
+
+9. VPC Flow Logs: A flow log captures information about the IP traffic going to and from network interfaces in your VPC.
+
+10. VPN connections: Connect your VPCs to your on-premises networks using AWS Virtual Private Network (AWS VPN).
+
