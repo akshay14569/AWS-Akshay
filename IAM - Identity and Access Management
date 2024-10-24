@@ -1,0 +1,42 @@
+IAM - Identity and Access Management
+
+IAM - Theory
+=====================
+
+1. What is AWS Identity and Access Management (IAM)?
+Ans: AWS IAM is a service that allows you to manage users, groups, and permissions for accessing AWS resources. It provides centralized control over authentication and authorization.
+
+2. How do IAM users differ from IAM roles?
+Ans: IAM users are individuals or entities that have a fixed set of permissions associated with them. IAM roles are temporary credentials that can be assumed by users or AWS services to access resources.
+
+3. What is an IAM policy?
+Ans: An IAM policy is a JSON document that defines permissions. It specifies what actions are allowed or denied on which AWS resources for whom (users, groups, or roles).
+
+4. How does IAM manage access keys?
+Ans: IAM users can have access keys (access key ID and secret access key) associated with their accounts, which are used for programmatic access to AWS resources.
+
+The principle of least privilege in AWS Identity and Access Management (IAM) refers to granting users, roles, or services the minimum set of permissions necessary to perform their required tasks, and nothing more.
+By following the least privilege principle, you minimize the risk of unauthorized access and limit the potential damage from security incidents in AWS.
+
+------------======================---------------------===============================-------------------========================-------------------=======================
+
+AWS IAM (Identity and Access Management) is a service provided by Amazon Web Services (AWS) that helps you manage access to your AWS resources. It's like a security system for your AWS account.
+IAM allows you to create and manage users, groups, and roles. Users represent individual people or entities who need access to your AWS resources.
+Groups are collections of users with similar access requirements, making it easier to manage permissions.
+Roles are used to grant temporary access to external entities or services.
+
+Components of IAM:
+1. Users
+2. Groups
+3. Roles
+4. Policies
+
+Policies: IAM policies are JSON documents that define permissions. Policies can be attached to users, groups, or roles to control access.
+IAM provides both AWS managed policies (predefined policies maintained by AWS) and customer managed policies (policies created and managed by you).
+
+Lymda
+cloud watch
+cloud trail
+ELB (Elastic load balancing)
+Auto scelling
+
