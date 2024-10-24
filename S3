@@ -1,0 +1,41 @@
+S3 - Theory
+=====================
+
+1. What is Amazon S3?
+Ans: Amazon Simple Storage Service (Amazon S3) is a scalable object storage service designed to store and retrieve any amount of data from anywhere on the web.
+
+Minimum storage: 0 bytes
+Maximum object size: 5 TB per object
+Maximum total storage: Unlimited
+
+2. What are storage types?
+Ans: There are 4 types of storage:
+     1. Simple Storage Service - S3
+     2. Elastic Block Storage - EBS
+     3. Elastic File Storage - EFS
+     4. Glacier.
+
+3. What are storage classes in S3?
+Ans: There are 6 types of storage classes:
+     1. S3 Standard
+     2. S3 Standard Infrequent Access
+     3. S3 One-Zone Infrequent Access
+     4. S3 Intelligent Tiering
+     5. S3 Glacier
+     6. S3 Glacier Deep Archive
+1. S3 Standard offers high durability, availability and object storage for frequently accessed data.
+2. S3 Standard IA is for data that is accessed less frequently, but requires rapid access when needed.
+3. S3 One-Zone IA is for data that is accessed less frequently and data store in single AZ. 
+4. S3 Intelligent Tiering is designed to optimized cost by automatically moving the data to the most effective access-tier.
+
+4. What is S3 versioning?
+Ans: S3 versioning is a feature that allows you to preserve, retrieve, and restore every version of every object in a bucket. It helps protect against accidental deletion and overwrites.
+
+5. What is a pre-signed URL in S3?
+Ans: A pre-signed URL is a URL that grants temporary access to an S3 object.
+
+6. What is S3 Cross-Region Replication?
+Ans: S3 Cross-Region Replication is a feature that automatically replicates objects from one S3 bucket in one AWS region to another bucket in a different region.
+
+7. What is the purpose of S3 event notifications?
+Ans: S3 event notifications allow you to trigger AWS Lambda functions or SQS queues when certain events, like object creation or deletion, occur in an S3 bucket.
