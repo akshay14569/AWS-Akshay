@@ -1,0 +1,56 @@
+EC2 - Elastic Compute Cloud
+
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.
+Access reliable, scalable infrastructure on demand.
+
+EC2 Instance Types:
+1. General purpose
+2. Compute optimized
+3. Memory optimized
+4. Storage optimized
+5. Accelerated computing
+
+1. General purpose: General Purpose instances are designed to deliver a balance of compute, memory, and network resources. They are suitable for a wide range of applications, including web servers,
+small databases, development and test environments, and more.
+
+2. Compute optimized: Compute Optimized instances provide a higher ratio of compute power to memory. They excel in workloads that require high-performance processing such as batch processing, 
+scientific modeling, gaming servers, and high-performance web servers.
+
+3. Memory optimized: Memory Optimized instances are designed to handle memory-intensive workloads. They are suitable for applications that require large amounts of memory, such as in-memory databases,
+real-time big data analytics, and high-performance computing.
+
+4. Storage optimized: Storage Optimized instances are optimized for applications that require high, sequential read and write access to large datasets. 
+They are ideal for tasks like data warehousing, log processing, and distributed file systems.
+
+5. Accelerated computing: Accelerated Computing Instances typically come with one or more types of accelerators, such as Graphics Processing Units (GPUs),
+Field Programmable Gate Arrays (FPGAs), or custom Application Specific Integrated Circuits (ASICs). 
+These accelerators offload computationally intensive tasks from the main CPU, enabling faster and more efficient processing for specific workloads.
+
+2. What are types of EC2 Instances?
+Ans: There are 5 types of instances:
+      1. General Purpose
+      2. Compute Optimized
+      3. Memory Optimized
+      4. Storage Optimized
+      5. Accelerated Computing
+
+1. General Purpose instances are designed to deliver a balance of compute, memory, and network resources.
+2. Compute Optimized instances provide a higher ratio of compute power to memory.
+3. Memory Optimized instances are designed to handle memory-intensive workloads.
+4. Storage Optimized
+3. EC2 Instances purchasing options
+Ans: There are 6 types of purchasing options:
+      1. On-Demand Instances
+      2. Reserved Instances
+      3. Spot Instances
+      4. Dedicated Hosts
+      5. Dedicated Instances
+      6. Schedule Instances
+
+1. On-Demand Instances is pay-as-you-go. It is used for short term irregular workloads. It will charge as per hour.
+2. Reserved Instances you can reserved the instances from 1 year to 3 years by paying advance payment.
+3. Spot Instances let you take adva
+3. Spot Instances let you take advantage of unused EC2 Capacity in the AWS Cloud on discounted rate and you can bid on these instances as well.
+4. Dedicated Hosts is a physical server with EC2 capacity fully dedicated to your use.
+5. Dedicated Instances will run on dedicated servers and your instances are isolated from other instances.
+6. Scheduled Instances allow you to reserve capacity for specific time windows that you define. These instances are available to you during the specified recurrin
